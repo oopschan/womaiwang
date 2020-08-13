@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 头顶第一部分 */
+.warp_top {
+  width: 100%;
+  height: 100px;
+  /* background: pink; */
+}
+
+.top_photo {
+  width: 1900px;
+  height: 100px;
+  margin: auto;
+  /* background: pink; */
+}
+.top_photo img {
+  width: 1900px;
+  // height: 100px;
+  margin: 0 auto;
+}
+
+/* 导航--第二部分左边的nav */
+
+.warp_nav {
+  width: 100%;
+  height: 32px;
+  background: #f5f5f5;
+}
+.nav {
+  width: 1210px;
+  height: 32px;
+  margin: 0 auto;
+  /* background: pink; */
+  position: relative;
+}
+.list1 {
+  float: left;
+}
+.list1 li {
+  float: left;
+  color: #606060;
+  font-size: 12px;
+  // margin-top: 8px;
+  line-height: 32px;
+}
+.leftLi1 {
+  width: 13px;
+  height: 32px;
+}
+.nav_img {
+  margin-top: 2px;
+}
+.leftLi2 {
+  // margin-left: 3px;
+  width: 60px;
+  height: 32px;
+}
+.leftLi3 {
+  width: 68px;
+  height: 30px;
+  border: 1px solid #3a9900;
+}
+.leftLi3:hover {
+  border-bottom: none;
+}
+.leftLi3 .shen_zhen {
+  text-align: center;
+  cursor: pointer;
+}
+.leftLi4 {
+  margin-left: 30px;
+}
+.leftLi5 {
+  margin-left: 11px;
+}
+.leftLi5:hover,
+.leftLi6:hover {
+  color: #c70019;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.leftLi6 {
+  margin-left: 21px;
+}
+// 导航--第二部分左边的浮动地址效果
+.float_tit {
+  width: 387px;
+  height: 452px;
+  background: #fff;
+  border: 1px solid #3a9900;
+  position: absolute;
+  left: 73px;
+  top: 32px;
+  display: none;
+}
+.can {
+  font-size: 24px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #bbb;
+  cursor: pointer;
+}
+.float_titT {
+  width: 387px;
+  height: 48px;
+  float: left;
+  text-indent: 20px;
+  margin-top: 21px;
+  color: #757575;
+}
+
+.float_titT a {
+  font-weight: bold;
+  // color: #000;
+}
+.titM_left {
+  float: left;
+  width: 97px;
+  height: 80px;
+  text-indent: 20px;
+  line-height: 20px;
+  // background: blue;
+}
+.titM_right li {
+  float: left;
+  width: 54px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.float_titC {
+  width: 387px;
+  height: 57px;
+  // background: lightblue;
+  float: left;
+}
+.float_sele {
+  width: 126px;
+  height: 31px;
+  float: left;
+  margin-left: 20px;
+  border: 1px solid #3a9900;
+  text-indent: 15px;
+}
+.float_titB {
+  width: 387px;
+  height: 246px;
+  float: left;
+  // background: lightcoral;
+}
+.warp_titB1 {
+  width: 353px;
+  height: 222px;
+  margin: 0 auto;
+  background: #f5f5f5;
+  padding-top: 12px;
+}
+.warp_titBL {
+  width: 36px;
+  height: 60px;
+  float: left;
+  // background: lightsalmon;
+  text-indent: 9px;
+  color: #606060;
+}
+.warp_titBL1 {
+  width: 36px;
+  height: 30px;
+  float: left;
+  // background: lightsalmon;
+  text-indent: 9px;
+  color: #606060;
+}
+.warp_titBR {
+  width: 317px;
+  height: 60px;
+  float: left;
+  // background: #777;
+}
+.warp_titBR1 {
+  width: 317px;
+  height: 30px;
+  float: left;
+  // background: #777;
+}
+.warp_titBR li {
+  float: left;
+  padding: 0px 10px;
+  font-size: 12px;
+  color: #606060;
+  cursor: pointer;
+  line-height: 30px;
+}
+.warp_titBR li:hover {
+  background: #3a9900;
+  color: #fff;
+}
+
+// 先在此处写下li的hover样式----------
+.titM_right li:hover {
+  background: #3a9900;
+  color: #fff;
+}
+.shen_zhen:hover {
+  color: #c70019;
+}
+
+/* 导航--第二部分右边的nav */
+.list2 {
+  float: right;
+}
+.list2 li {
+  float: left;
+  color: #606060;
+  font-size: 12px;
+  // margin-top: 8px;
+  cursor: pointer;
+  // line-height: 32px;
+}
+.rightLi1,
+.rightLi2,
+.rightLi3,
+.rightLi4,
+.rightLi5,
+.rightLi6 {
+  line-height: 32px;
+}
+.rightLi1:hover {
+  color: #c70019;
+}
+.rightLi5 {
+  margin-right: 15px;
+}
+.rightLi4 {
+  margin-right: 38px;
+}
+.rightLi3 {
+  margin-right: 26px;
+}
+.rightLi2 {
+  margin-right: 30px;
+}
+.rightLi1 {
+  margin-right: 15px;
+  padding-right: 22px;
+  padding-left: 22px;
+  // background: #c30000;
+}
+.rightLi1:hover {
+  border: 1px solid #3b9901;
+  // margin-right: 15px;
+  padding-right: 21px;
+  padding-left: 21px;
+  height: 30px;
+  line-height: 31px;
+  background: white;
+  border-bottom: none;
+}
+
+// 导航---第二部分---右边浮动的效果
+.float_rightLi1 {
+  width: 194px;
+  height: 202px;
+  border: 1px solid #3b9901;
+  position: absolute;
+  left: 738px;
+  top: 32px;
+  background: white;
+  display: none;
+}
+.rightLiOne {
+  width: 194px;
+  height: 40px;
+  // background: pink;
+  // display: none;
+}
+.rightLiOne p {
+  text-indent: 13px;
+  line-height: 40px;
+  color: #999;
+}
+.rightLiOne span {
+  color: #3b9901;
+}
+.rightLiOne span:hover {
+  color: #3b9901;
+  text-decoration: underline;
+}
+.rightLiTwo {
+  width: 194px;
+  height: 24px;
+  margin-bottom: 8px;
+  // background: lightblue;
+}
+.right_m1 {
+  width: 74px;
+  height: 25px;
+  text-align: center;
+  line-height: 24px;
+  margin-left: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.right_m2 {
+  width: 74px;
+  height: 25px;
+  text-align: center;
+  line-height: 24px;
+  margin-left: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.right_m1:hover {
+  background: #999;
+  color: #6c6c6c;
+}
+.right_m2:hover {
+  background: #999;
+  color: #6c6c6c;
+}
+.right_m2 {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+/* <!-- 搜索区--第三部分 --> */
+.warp_sea {
+  width: 1210px;
+  height: 116px;
+  /* background: pink; */
+  margin: 0 auto;
+}
+.warp_sea1 {
+  width: 1210px;
+  height: 82px;
+  float: left;
+  margin: 36px auto;
+  /* background: powderblue; */
+}
+.sea_left {
+  float: left;
+  cursor: pointer;
+}
+.sea_mid {
+  float: left;
+  margin-left: 58px;
+}
+.ipt1 {
+  width: 484px;
+  height: 38px;
+  border: 2px solid #c30000;
+  float: left;
+  margin-top: 12px;
+  font-size: 12px;
+  color: #bbb;
+  text-indent: 32px;
+  outline: none;
+  background: url(./../image/mirror.png) no-repeat 10px 10px;
+}
+
+.sea_box span {
+  width: 100px;
+  height: 42px;
+  background: #c70019;
+  float: left;
+  margin-top: 12px;
+  font: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+}
+.sea_text a {
+  font-style: normal;
+  font-size: 12px;
+  color: #757575;
+  margin-right: 18px;
+  cursor: pointer;
+}
+.sea_text a:hover {
+  color: #c70019;
+  text-decoration: underline;
+}
+.sea_right img {
+  float: right;
+  cursor: pointer;
+}
