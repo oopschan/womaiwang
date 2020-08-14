@@ -64,3 +64,50 @@
 
 .bottom_cont2:hover {
   cursor: default; }
+
+.warp_bottomBot {
+  width: 100%;
+  height: 202px; }
+
+.warp_bottomBot1 {
+  width: 1103px;
+  height: 202px;
+  margin: 0 auto;
+  background: #fff; }
+
+.warp_bottomB1 {
+  width: 1103px;
+  height: 72px; }
+
+.warp_bottomB2 {
+  width: 1103px;
+  height: 130px;
+  background: #eee; }
+
+.warp_bottomB1 ul {
+  margin-left: 7px; }
+
+.list_bott,
+.list_botRed {
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: center;
+  line-height: 72px;
+  font-size: 12px;
+  color: #606060;
+  float: left;
+  cursor: pointer; }
+
+.list_botRed {
+  color: #c30000;
+  cursor: default; }
+
+.list_botborder {
+  width: 1px;
+  height: 11px;
+  background: #999;
+  margin-top: 32px;
+  float: left; }
+
+.list_bott:hover {
+  text-decoration: underline; }
