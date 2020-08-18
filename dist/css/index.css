@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.nav_three {
+  width: 100%;
+  height: 82px;
+  border-bottom: 2px solid #e8382f; }
+
+.nav_three1 {
+  width: 1210px;
+  height: 82px;
+  margin: 0 auto; }
+
+.nav_thrOne {
+  width: 210px;
+  height: 46px;
+  background: #e8382f;
+  opacity: 0.8;
+  float: left;
+  margin-top: 38px;
+  color: #fff;
+  line-height: 46px;
+  text-align: center; }
+
+.nav_thrOne h2 {
+  font-size: 16px; }
+
+.nav_thrTwo {
+  font-size: 14px;
+  color: #383838;
+  float: left;
+  margin-top: 38px;
+  margin-left: 18px;
+  line-height: 46px;
+  cursor: pointer; }
+
+.nav_thrTwo:hover {
+  color: #e8382f; }
+
+.nav_thrThr {
+  width: 200px;
+  height: 44px;
+  background: white;
+  float: right;
+  margin-top: 38px; }
+
+.thrThrImg {
+  float: left;
+  margin-left: 41px;
+  margin-top: 9px;
+  cursor: pointer; }
+
+.cont_shoping {
+  font-size: 12px;
+  color: #606060;
+  float: left;
+  margin-left: 15px;
+  margin-top: 13px;
+  cursor: pointer; }
+
+.thrjiantou {
+  float: left;
+  margin-left: 37px;
+  margin-top: 10px; }
+
+.nav_thrFloat {
+  width: 358px;
+  height: 115px;
+  border: 1px solid #3a9901;
+  position: absolute;
+  left: -160px;
+  top: 45px;
+  display: none; }
+
+.nav_thrFloat a {
+  float: left;
+  margin-left: 90px;
+  color: #606060;
+  line-height: 12px; }
+
+.nav_thrFloat span {
+  font-size: 12px;
+  margin-left: 156px;
+  margin-top: 8px;
+  float: left;
+  color: #c40000;
+  line-height: 12px; }
+
+.nav_thrFloat span:hover {
+  text-decoration: underline; }
+
+.warp_fou {
+  width: 100%;
+  height: 449px; }
+
+.warp_fou1 {
+  width: 1210px;
+  height: 448px;
+  margin: 0 auto; }
+
+.warpFou_Two {
+  width: 210px;
+  height: 448px;
+  float: left;
+  background: #c70019; }
+
+.warpFou_TwoUl {
+  float: left; }
+
+.warpFou_TwoLi {
+  float: left;
+  width: 210px;
+  height: 32px;
+  margin-bottom: 7px;
+  margin-top: 12px; }
+
+.warpFou_text1 {
+  font-size: 12px;
+  color: white;
+  margin-left: 16px;
+  line-height: 32px; }
+
+.warpFou_text2 {
+  font-size: 12px;
+  color: white;
+  margin-left: 10px;
+  line-height: 32px; }
+
+.warpFou_TwoLi:hover {
+  background: white; }
+
+.warpFou_TwoLi:hover .warpFou_boxpho {
+  background-position: -18px 0; }
+
+.warpFou_TwoLi:hover span {
+  color: #c40000; }
+
+.warpFou_TwoLi span:hover {
+  text-decoration: underline; }
+
+.warpFou_TwoLi1:hover {
+  background: white; }
+
+.warpFou_TwoLi1:hover .warpFou_boxpho {
+  background-position: -18px 0; }
+
+.warpFou_TwoLi1:hover span {
+  color: #c40000; }
+
+.warpFou_TwoLi1 span:hover {
+  text-decoration: underline; }
+
+.warpFou_TwoLi1 {
+  float: left;
+  width: 210px;
+  height: 32px;
+  margin-bottom: 7px; }
+
+.warpFou_boxpho {
+  width: 18px;
+  height: 18px;
+  background: url(./../image/xiaotu1.png) no-repeat;
+  float: left;
+  margin: 6px 0 0 19px; }
+
+.warpFou1_text1 {
+  font-size: 12px;
+  color: #fff;
+  line-height: 32px;
+  margin-left: 18px;
+  cursor: pointer; }
+
+.warpFou1_text2 {
+  font-size: 12px;
+  color: #fff;
+  line-height: 32px;
+  margin-left: 10px;
+  cursor: pointer; }
+
+.warpFou_Thr {
+  width: 800px;
+  height: 449px;
+  float: left; }
+
+.wrapFou1_lunbo {
+  width: 800px;
+  height: 449px;
+  float: left;
+  position: relative; }
+
+.wrapFou1_main {
+  width: 800px;
+  height: 449px;
+  position: relative; }
+
+.wrapFou1_main img {
+  width: 800px;
+  height: 449px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1; }
+
+.wrapFou1_prev {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  z-index: 12;
+  margin-top: -12px;
+  width: 25px;
+  height: 24px;
+  cursor: pointer;
+  background: url("./../image/fx1.png"); }
+
+.wrapFou1_next {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  z-index: 12;
+  margin-top: -12px;
+  width: 25px;
+  height: 24px;
+  cursor: pointer;
+  background: url("./../image/fx2.png"); }
+
+.wrapFou1_num {
+  overflow: hidden;
+  position: absolute;
+  left: 340px;
+  bottom: 20px;
+  z-index: 12; }
+
+.wrapFou1_num li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 5px;
+  background-color: white; }
+
+.wrapFou1_main .wrapFou_show {
+  z-index: 10; }
+
+.wrapFou1_num .wrapFou_active {
+  background-color: green; }
+
+.warpFou_Fou {
+  width: 198px;
+  height: 448px;
+  border-left: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  float: left; }
+
+.warpFou_Fou1 {
+  width: 198px;
+  height: 116px; }
+
+.gonggao {
+  width: 198px;
+  height: 32px;
+  float: left; }
+
+.gonggao span {
+  display: inline-block;
+  font-size: 12px;
+  color: #0d8700;
+  margin-top: 8px;
+  width: 198px;
+  margin-left: 9px; }
+
+.border {
+  width: 67px;
+  height: 2px;
+  background: #0d8700;
+  float: left; }
+
+.Fou_cont li {
+  font-size: 12px;
+  color: #606060;
+  list-style-type: disc;
+  margin-left: 30px;
+  float: left;
+  line-height: 22px;
+  cursor: pointer; }
+
+.Fou_cont li:hover {
+  text-decoration: underline; }
+
+.warpFou_Fou2 {
+  width: 198px;
+  height: 182px;
+  border-top: 1px solid #dddddd;
+  margin-left: 2px;
+  background: #f5f5f5;
+  overflow: hidden; }
+
+.warpFou_Fou2 img {
+  border: 1px dotted #999;
+  border-bottom: none;
+  height: 56px;
+  width: 58px;
+  cursor: pointer; }
+
+.warpFou_Fou3 {
+  float: left;
+  width: 196x;
+  height: 152px;
+  cursor: pointer; }
+
+.warp_food {
+  width: 1210px;
+  height: 556px;
+  margin: 0 auto; }
+
+.warp_food1 {
+  width: 1210px;
+  height: 52px;
+  float: left; }
+
+.warp_food1 i {
+  width: 5px;
+  height: 20px;
+  background: #88a9e2;
+  float: left;
+  margin-top: 22px; }
+
+.warp_food1 span {
+  font-size: 18px;
+  color: #88a9e2;
+  margin-left: 10px;
+  line-height: 18px;
+  margin-top: 22px;
+  float: left; }
+
+.food_sele ul {
+  float: left;
+  margin-left: 178px; }
+
+.food_sele li {
+  float: left;
+  font-size: 16px;
+  width: 74px;
+  height: 36px;
+  margin-top: 14px;
+  margin-right: 34px;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer; }
+
+.warp_food2 {
+  width: 1210px;
+  height: 503px;
+  float: left; }
+
+.food_show1 {
+  width: 242px;
+  height: 503px;
+  background: url(./../image/freeback1.png) no-repeat;
+  float: left; }
+
+.food_milk {
+  width: 242px;
+  height: 168px; }
+
+.food_milkborderaa {
+  width: 200px;
+  height: 1px;
+  margin-left: 19px;
+  background: #e3c694; }
+
+.food_milk ul {
+  float: left;
+  margin-top: 46px; }
+
+.food_milklist {
+  float: left;
+  color: #50607b;
+  margin-left: 20px;
+  margin-top: 15px; }
+
+.food_milklist img {
+  float: left; }
+
+.food_milklist span {
+  font-size: 12px;
+  display: block;
+  float: left;
+  margin-top: 5px;
+  margin-left: 3px; }
+
+.food_milklist span:hover {
+  color: #1d232d;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.food_water {
+  cursor: pointer; }
+
+.food_show2 {
+  float: left;
+  width: 968px;
+  height: 502px;
+  overflow: hidden;
+  border-top: 1px solid #a1c0f6; }
+
+.food_show2_tab1 {
+  display: none; }
+
+.active {
+  border-bottom: 2px solid #a1c0f6; }
+
+.show {
+  display: block; }
+
+.food_box1 {
+  width: 241px;
+  height: 250px;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  float: left; }
+
+.food_box2 {
+  width: 483px;
+  height: 250px;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  float: left; }
+
+.warp_tab {
+  width: 968px;
+  height: 1008px; }
+
+.food_box1img {
+  width: 240px;
+  height: 190px; }
+
+.food_box1img img {
+  width: 180px;
+  height: 180px;
+  margin: 6px 30px 0;
+  cursor: pointer; }
+
+.food_box1img p {
+  margin-left: 27px;
+  font-size: 13px;
+  color: #606060;
+  margin-bottom: 4px; }
+
+.food_box1img p:hover {
+  color: #dd0800;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.food_box1img i {
+  font-size: 11px;
+  color: #dd0800;
+  text-decoration: none;
+  margin-left: 22px; }
+
+.food_box1img a {
+  font-size: 18px;
+  color: #dd0800; }
+
+.food_box2 {
+  cursor: pointer; }
+
+.index_kongbaidi {
+  width: 100%;
+  height: 80px;
+  background: #fff; }

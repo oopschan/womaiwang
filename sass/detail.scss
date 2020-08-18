@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// -------------------首页全部商品分类-------=======
+.detail_sele {
+  width: 1210px;
+  height: 82px;
+  margin: 0 auto;
+}
+.detail_sele1 {
+  width: 1210px;
+  height: 44px;
+  float: left;
+  margin-top: 38px;
+  background: #fff;
+}
+// --------------页面全局的一个绿线条
+.detail_allBorder {
+  width: 100%;
+  height: 2px;
+  background: #318700;
+}
+// -------------那个商品级别的涟涟
+.detail_goods {
+  width: 210px;
+  height: 44px;
+  background: #318700;
+  float: left;
+  font-size: 16px;
+  color: #fff;
+  line-height: 44px;
+  text-align: center;
+}
+.detail_firstp,
+.detail_shopping {
+  float: left;
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 44px;
+  color: #383838;
+  text-align: center;
+  cursor: pointer;
+}
+.detail_firstp:hover {
+  color: #7cc472;
+}
+.detail_shopping:hover {
+  color: #7cc472;
+}
+.detail_goodsline {
+  width: 1210px;
+  height: 34px;
+  margin: 0 auto;
+  // background: pink;
+}
+.detail_goodsline p {
+  float: left;
+  font-size: 12px;
+  color: #606060;
+  line-height: 34px;
+  margin: 0 5px;
+}
+.detail_goodsline .deatail_textchange:hover {
+  color: #7cc472;
+  text-decoration: underline;
+  cursor: pointer;
+}
+// ------------放大镜的部分-----------
+.warp_detailmirr {
+  width: 1210px;
+  height: 484px;
+  margin: 0 auto;
+  // background: pink;
+}
+.warp_detailmirr1 {
+  width: 402px;
+  height: 484px;
+  float: left;
+  position: relative;
+}
+.detail_goodsleft {
+  width: 400px;
+  height: 400px;
+  float: left;
+  border: 1px solid #ddd;
+  // background: lightblue;
+  position: relative;
+}
+.detail_goodsbott {
+  width: 402px;
+  height: 82px;
+  // background: lightcyan;
+  float: left;
+}
+.detail_goodsleft img {
+  width: 400px;
+  height: 400px;
+}
+.mirr_min1,
+.mirr_min2,
+.mirr_min3 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ededed;
+  // background: lightsalmon;
+  float: left;
+  margin-right: 25px;
+  margin-top: 11px;
+}
+.mirr_min1 img {
+  width: 60px;
+  height: 60px;
+}
+.mirr_min2 img {
+  width: 60px;
+  height: 60px;
+}
+.mirr_min3 img {
+  width: 60px;
+  height: 60px;
+}
+.warp_detailmirr2 {
+  width: 540px;
+  height: 484px;
+  // background: blueviolet;
+  float: left;
+  margin-left: 28px;
+}
+.detailmyself {
+  width: 30px;
+  height: 18px;
+  background: #c20312;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 0 4px;
+  line-height: 32px;
+}
+.detailtitle {
+  font-size: 16px;
+  line-height: 32px;
+  color: #666666;
+  margin-left: 12px;
+}
+.detailtakeoff {
+  font-size: 11px;
+  color: #c40000;
+  line-height: 21px;
+}
+.detail_warpprice {
+  width: 540px;
+  height: 55px;
+  background: #f5f5f5;
+  margin-top: 29px;
+}
+.detail_warpprice1 {
+  width: 540px;
+  height: 24px;
+  // background: chartreuse;
+  margin-top: 22px;
+  float: left;
+}
+.detail_moneyp {
+  font-size: 11px;
+  color: #c40000;
+  margin-left: 18px;
+  margin-top: 9px;
+  float: left;
+}
+.detail_price {
+  font-size: 21px;
+  margin-left: 4px;
+  float: left;
+  color: #c40000;
+}
+.lingshoujia {
+  width: 46px;
+  height: 18px;
+  background: #c40000;
+  float: left;
+  margin-left: 11px;
+  margin-top: 6px;
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+}
+.jiangjia {
+  font-size: 12px;
+  color: #666666;
+  margin-left: 4px;
+  margin-top: 9px;
+  float: left;
+}
+.jiangjia:hover {
+  color: #2d8800;
+  text-decoration: underline;
+}
+.detail_address1 {
+  margin-left: 16px;
+  margin-top: 6px;
+}
+.detail_address1 span {
+  font-size: 12px;
+  color: #666666;
+}
+.detail_jianhao,
+.detail_jiahao {
+  width: 13px;
+  height: 28px;
+  border: 1px solid #dcdcdc;
+  float: left;
+  margin-top: 10px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.detail_jianhao {
+  width: 13px;
+  height: 28px;
+  border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 12px;
+}
+.detail_number {
+  width: 47px;
+  height: 28px;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  float: left;
+  margin-top: 10px;
+  line-height: 28px;
+  text-align: center;
+}
+.detail_jiahao {
+  width: 13px;
+  height: 28px;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 12px;
+}
+.detail_shoppingnum a {
+  float: left;
+  margin-top: 16px;
+}
+.detail_shoppingcart1 {
+  width: 194px;
+  height: 46px;
+  background: #c40000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  line-height: 46px;
+  margin-left: 16px;
+  margin-top: 23px;
+  float: left;
+}
+.detail_warpshoppingc {
+  width: 540px;
+  height: 70px;
+  float: left;
+}
+.QRscan {
+  float: left;
+  margin-top: 23px;
+  margin-left: 20px;
+  border: 1px solid #c40000;
+  cursor: pointer;
+}
+.deatail_tips22 {
+  font-size: 12px;
+  margin-top: 40px;
+  margin-left: 44px;
+  float: left;
+  color: #666666;
+}
+.detail_kongxi {
+  width: 100%;
+  height: 100px;
+  background: 100px;
+}
+
+// 放大镜部分
+.detail_goodsright {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #cccccc;
+  position: absolute;
+  left: 411px;
+  top: 0;
+  background: #fff;
+  overflow: hidden;
+  display: none;
+}
+.detail_goodsright img {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.detail_maxmask {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #80dc2c;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: orange;
+  opacity: 0.4;
+  cursor: move;
+  display: none;
+}

@@ -18,31 +18,40 @@ $(".ipt1").bind("blur", function () {
 var float_tit = document.querySelector(".float_tit");
 var leftLi3 = document.querySelector(".leftLi3");
 var float_tit = document.querySelector(".float_tit");
-
-$(".shen_zhen").toggle(
-  function () {
-    leftLi3.style.background = "white";
-    float_tit.style.display = "block";
-  },
-  function () {
-    leftLi3.style.background = "#f5f5f5";
-    float_tit.style.display = "none";
-  }
-);
+var header_leftLi3 = document.querySelector(".header_leftLi3");
+header_leftLi3.onmouseenter = function () {
+  float_tit.style.display = "block";
+};
+header_leftLi3.onmouseleave = function () {
+  float_tit.style.display = "none";
+};
 
 $(".can").bind("click", function () {
   leftLi3.style.background = "#f5f5f5";
   float_tit.style.display = "none";
 });
 
-var float_rightLi1 = document.querySelector(".float_rightLi1");
-var rightLi1 = document.querySelector(".rightLi1");
+// 点击登录或注册跳转页面
+var header_leftLi5 = $1(".header_leftLi5");
+var header_leftLi6 = $1(".header_leftLi6");
+var dengluxiao = $1(".dengluxiao");
 
-$(".rightLi1").toggle(
-  function () {
-    float_rightLi1.style.display = "block";
-  },
-  function () {
-    float_rightLi1.style.display = "none";
-  }
-);
+header_leftLi5.onclick = function () {
+  location.href = "./../pages/loading.html";
+};
+header_leftLi6.onclick = function () {
+  location.href = "./../pages/zhuce.html";
+};
+dengluxiao.onclick = function () {
+  location.href = "./../pages/loading.html";
+};
+
+var float_rightLi1 = document.querySelector(".float_rightLi1");
+var header_floataccount = document.querySelector(".header_floataccount");
+
+header_floataccount.onmouseenter = function () {
+  float_rightLi1.style.display = "block";
+};
+header_floataccount.onmouseleave = function () {
+  float_rightLi1.style.display = "none";
+};

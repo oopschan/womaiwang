@@ -23,6 +23,11 @@ task("sass", async () => {
     .pipe(load.connect.reload());
 });
 
+//处理php
+task("data", async () => {
+  src("./data/*.*").pipe(dest("./dist/data")).pipe(load.connect.reload());
+});
+
 // 处理js
 task("script", async () => {
   src("./script/*.js").pipe(dest("./dist/script")).pipe(load.connect.reload());
@@ -39,6 +44,7 @@ task("watch", async () => {
   watch("./sass/*.scss", series("sass"));
   watch("./script/*.js", series("script"));
   watch("./pages/*.html", series("html"));
+  watch("./data/*.*", series("data"));
 });
 
 // 启动服务，自动刷新
@@ -53,5 +59,14 @@ task("connect", async () => {
 // 构建开发包
 task(
   "dev",
-  series("delDist", "image", "sass", "script", "html", "connect", "watch")
+  series(
+    "delDist",
+    "image",
+    "sass",
+    "script",
+    "html",
+    "connect",
+    "watch",
+    "data"
+  )
 );

@@ -4,26 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./../dist/css/header.css" />
+    <link rel="stylesheet" href="./../css/header.css" />
   </head>
   <body>
+
     <!-- 头顶第一部分 -->
-    <div class="warp_top">
+    <div class="header_top">
       <div class="top_photo">
         <img src="./../image/top_photo.jpg" />
       </div>
     </div>
 
     <!-- 导航--第二部分 -->
-    <div class="warp_nav">
-      <div class="warp_nav1">
-        <div class="nav">
-          <ul class="list1">
-            <li class="leftLi1">
+    <div class="warp_headernav">
+      <div class="warp_headernav1">
+        <div class="headernav">
+          <ul class="header_list1">
+            <li class="header_leftLi1">
               <img src="./../image/home.png" class="nav_img" />
             </li>
-            <li class="leftLi2">当前城市：</li>
-            <li class="leftLi3">
+            <li class="header_leftLi2">当前城市：</li>
+            <li class="header_leftLi3">
               <p class="shen_zhen">深圳 v</p>
               <div class="float_tit">
                 <div class="float_titT">
@@ -131,16 +132,16 @@
                 </div>
               </div>
             </li>
-            <li class="leftLi4">hi,欢迎来我买网！</li>
-            <li class="leftLi5">登陆</li>
-            <li class="leftLi6">注册</li>
+            <li class="header_leftLi4">hi,欢迎来我买网！</li>
+            <li class="header_leftLi5">登陆</li>
+            <li class="header_leftLi6">注册</li>
           </ul>
-          <ul class="list2">
-            <li>
-              <p class="rightLi1">我的账户 v</p>
+          <ul class="header_list2">
+            <li class="header_floataccount">
+              <p class="header_rightLi1">我的账户 v</p>
               <div class="float_rightLi1">
                 <div class="rightLiOne">
-                  <p>您还没有登陆！<span>登陆</span></p>
+                  <p>您还没有登陆！<span class="dengluxiao">登陆</span></p>
                 </div>
                 <div class="rightLiTwo">
                   <a class="right_m1">待付款订单</a>
@@ -160,14 +161,15 @@
                 </div>
                 <div class="rightLiTwo">
                   <a class="right_m1">电子礼品</a>
-                  <!-- <a class="right_m2">我的消息</a> -->
+                  <a class="right_m2">我的消息</a>
                 </div>
               </div>
             </li>
             <li>
-              <img src="./../image/car.png" alt="" /><span class="rightLi2"
-                >购物车0件</span
-              >
+            </span>购物车0件</span>
+              <img src="./../image/car.png" alt="" /><span class="rightLi2">
+
+
             </li>
             <li class="rightLi3">客户服务 v</li>
             <li class="rightLi4">企业购</li>
@@ -183,8 +185,8 @@
     </div>
 
     <!-- 搜索区--第三部分 -->
-    <div class="warp_sea">
-      <div class="warp_sea1">
+    <div class="warp_headersea">
+      <div class="warp_headersea1">
         <div class="sea_left">
           <img src="./../image/logo.png" alt="" />
         </div>
@@ -205,7 +207,10 @@
         </div>
       </div>
     </div>
+
+    <div class="header_tianbu"></div>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.8.3/jquery.js"></script>
+    <script src="./../script/utils.js"></script>
     <script src="./../script/header.js"></script>
   </body>
 </html>

@@ -4,85 +4,83 @@
   list-style: none;
 }
 /* 头顶第一部分 */
-.warp_top {
+.header_top {
   width: 100%;
   height: 100px;
   /* background: pink; */
 }
 
 .top_photo {
-  width: 1900px;
+  width: 1920px;
   height: 100px;
   margin: auto;
   /* background: pink; */
 }
 .top_photo img {
-  width: 1900px;
+  width: 1920px;
   // height: 100px;
   margin: 0 auto;
 }
 
 /* 导航--第二部分左边的nav */
 
-.warp_nav {
+.warp_headernav {
   width: 100%;
   height: 32px;
   background: #f5f5f5;
 }
-.nav {
+.headernav {
   width: 1210px;
   height: 32px;
   margin: 0 auto;
   /* background: pink; */
   position: relative;
 }
-.list1 {
+.header_list1 {
   float: left;
 }
-.list1 li {
+.header_list1 li {
   float: left;
   color: #606060;
   font-size: 12px;
   // margin-top: 8px;
   line-height: 32px;
 }
-.leftLi1 {
+.header_leftLi1 {
   width: 13px;
   height: 32px;
 }
 .nav_img {
   margin-top: 2px;
 }
-.leftLi2 {
+.header_leftLi2 {
   // margin-left: 3px;
   width: 60px;
   height: 32px;
 }
-.leftLi3 {
+.header_leftLi3 {
   width: 68px;
   height: 30px;
-  border: 1px solid #3a9900;
+  // border: 1px solid #3a9900;
 }
-.leftLi3:hover {
-  border-bottom: none;
-}
-.leftLi3 .shen_zhen {
+
+.header_leftLi3 .shen_zhen {
   text-align: center;
   cursor: pointer;
 }
-.leftLi4 {
+.header_leftLi4 {
   margin-left: 30px;
 }
 .leftLi5 {
   margin-left: 11px;
 }
-.leftLi5:hover,
-.leftLi6:hover {
+.header_leftLi5:hover,
+.header_leftLi6:hover {
   color: #c70019;
   cursor: pointer;
   text-decoration: underline;
 }
-.leftLi6 {
+.header_leftLi6 {
   margin-left: 21px;
 }
 // 导航--第二部分左边的浮动地址效果
@@ -95,6 +93,7 @@
   left: 73px;
   top: 32px;
   display: none;
+  z-index: 99;
 }
 .can {
   font-size: 24px;
@@ -210,10 +209,10 @@
 }
 
 /* 导航--第二部分右边的nav */
-.list2 {
+.header_list2 {
   float: right;
 }
-.list2 li {
+.header_list2 li {
   float: left;
   color: #606060;
   font-size: 12px;
@@ -221,13 +220,16 @@
   cursor: pointer;
   // line-height: 32px;
 }
-.rightLi1,
+.header_rightLi1,
 .rightLi2,
 .rightLi3,
 .rightLi4,
 .rightLi5,
 .rightLi6 {
   line-height: 32px;
+}
+.header_rightLi1 {
+  margin-right: 14px;
 }
 .rightLi1:hover {
   color: #c70019;
@@ -267,7 +269,7 @@
   height: 202px;
   border: 1px solid #3b9901;
   position: absolute;
-  left: 738px;
+  left: 780px;
   top: 32px;
   background: white;
   display: none;
@@ -315,12 +317,12 @@
   padding-right: 7px;
 }
 .right_m1:hover {
-  background: #999;
-  color: #6c6c6c;
+  background: #7abd54;
+  color: #fff;
 }
 .right_m2:hover {
-  background: #999;
-  color: #6c6c6c;
+  background: #7abd54;
+  color: #fff;
 }
 .right_m2 {
   width: 100px;
@@ -331,17 +333,18 @@
 }
 
 /* <!-- 搜索区--第三部分 --> */
-.warp_sea {
+.warp_headersea {
   width: 1210px;
   height: 116px;
-  /* background: pink; */
+  // background: pink;
   margin: 0 auto;
 }
-.warp_sea1 {
+.warp_headersea1 {
   width: 1210px;
   height: 82px;
   float: left;
   margin: 36px auto;
+  overflow: hidden;
   /* background: powderblue; */
 }
 .sea_left {
@@ -391,4 +394,9 @@
 .sea_right img {
   float: right;
   cursor: pointer;
+}
+.header_tianbu {
+  width: 100%;
+  height: 40px;
+  background: #fff;
 }
