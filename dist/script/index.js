@@ -15,13 +15,28 @@ $(".nav_thrTwo").click(function () {
   location.href = "./../pages/list.html";
 });
 
-// 浮动起来的购物车的效果;
-// nav_thrThr.onmouseenter = function () {
-//   nav_thrFloat.style.display = "block";
-// };
-// nav_thrThr.onmouseout = function () {
-//   nav_thrFloat.style.display = "none";
-// };
+// 浮动起来的导航效果
+// $(".warpFou_Two").on("mouseenter", ".warpFou_TwoLi", function () {
+//   // console.log(this);
+//   $(this).children(".warp_showing").css("display", "block");
+// });
+// $(".warpFou_Two").on("mouseleave", ".warpFou_TwoLi", function () {
+//   // console.log(this);
+//   $(this).children(".warp_showing").css("display", "none");
+// });
+
+$(".warpFou_TwoLi").mouseenter(function () {
+  $(".warp_showing").css("display", "block");
+});
+$(".warpFou_TwoLi").mouseleave(function () {
+  $(".warp_showing").css("display", "none");
+});
+// $(".warpFou_TwoLi1").mouseenter(function () {
+//   $(".warp_showing").css("display", "block");
+// });
+// $(".warpFou_TwoLi1").mouseleave(function () {
+//   $(".warp_showing").css("display", "none");
+// });
 
 // 轮播图的效果------------
 

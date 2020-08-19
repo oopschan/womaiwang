@@ -32,9 +32,8 @@
   background: #479202; }
 
 .list_banner {
-  width: 1920px;
-  height: 360px;
-  margin: 0 auto; }
+  width: 100%;
+  height: 360px; }
 
 .list_photo {
   width: 1210px;
