@@ -16,21 +16,22 @@ $(".nav_thrTwo").click(function () {
 });
 
 // 浮动起来的导航效果
-// $(".warpFou_Two").on("mouseenter", ".warpFou_TwoLi", function () {
-//   // console.log(this);
-//   $(this).children(".warp_showing").css("display", "block");
-// });
-// $(".warpFou_Two").on("mouseleave", ".warpFou_TwoLi", function () {
-//   // console.log(this);
-//   $(this).children(".warp_showing").css("display", "none");
-// });
+$(".warpFou_Two").on("mouseenter", ".warpFou_TwoLi", function () {
+  // console.log(this);
+  $(this).children(".warp_showing").css("display", "block");
+});
+$(".warpFou_Two").on("mouseleave", ".warpFou_TwoLi", function () {
+  // console.log(this);
+  $(this).children(".warp_showing").css("display", "none");
+});
 
-$(".warpFou_TwoLi").mouseenter(function () {
-  $(".warp_showing").css("display", "block");
-});
-$(".warpFou_TwoLi").mouseleave(function () {
-  $(".warp_showing").css("display", "none");
-});
+// 因为全部的li用的是相同的类名，所以触发事件时候还触发了其他li事件累加起来了
+// $(".warpFou_TwoLi").mouseenter(function () {
+//   $(".warp_showing").css("display", "block");
+// });
+// $(".warpFou_TwoLi").mouseleave(function () {
+//   $(".warp_showing").css("display", "none");
+// });
 // $(".warpFou_TwoLi1").mouseenter(function () {
 //   $(".warp_showing").css("display", "block");
 // });
@@ -55,7 +56,7 @@ animate(imgs[showIndex], { opacity: 1 }, function () {
   // 自动播放下一页
   timer = setInterval(function () {
     moveNext();
-  }, 3000);
+  }, 2000);
 });
 
 function moveNext() {
@@ -161,6 +162,16 @@ for (var i = 0, len = nums.length; i < len; i++) {
     }, 2000);
   };
 }
+
+// 上下页切换图片 效果
+$(".warpFou_Thr").mouseenter(function () {
+  $(this).find(".wrapFou1_prev").css("display", "block");
+  $(this).find(".wrapFou1_next").css("display", "block");
+});
+$(".warpFou_Thr").mouseleave(function () {
+  $(this).find(".wrapFou1_prev").css("display", "none");
+  $(this).find(".wrapFou1_next").css("display", "none");
+});
 
 // --------------------tab选项卡-----------------------
 var food_sele = document.querySelectorAll(".food_sele li");

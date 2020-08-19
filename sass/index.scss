@@ -112,16 +112,18 @@
   height: 448px;
   float: left;
   background: #c70019;
+  position: relative;
 }
 .warpFou_TwoUl {
   float: left;
+  // position: relative;
 }
 .warpFou_TwoLi {
   float: left;
   width: 210px;
   height: 32px;
   margin-bottom: 7px;
-  position: relative;
+  // position: relative;
 }
 .warpFou_text1 {
   font-size: 12px;
@@ -229,6 +231,7 @@
   height: 24px;
   cursor: pointer;
   background: url("./../image/fx1.png");
+  display: none;
 }
 .wrapFou1_next {
   position: absolute;
@@ -240,6 +243,7 @@
   height: 24px;
   cursor: pointer;
   background: url("./../image/fx2.png");
+  display: none;
 }
 .wrapFou1_num {
   overflow: hidden;
@@ -259,11 +263,11 @@
   margin-left: 5px;
   background-color: white;
 }
-.wrapFou1_main .wrapFou_show {
+.wrapFou1_main .wrapFou1_show {
   z-index: 10;
 }
-.wrapFou1_num .wrapFou_active {
-  background-color: green;
+.wrapFou1_num .wrapFou1_active {
+  background-color: lightblue;
 }
 
 // 第四部分里面的最后一部分-----------
@@ -343,7 +347,7 @@
 
 .warp_showing {
   width: 787px;
-  height: 369px;
+  height: 447px;
   border-right: 1px solid #3a9900;
   border-bottom: 1px solid #3a9900;
   position: absolute;
@@ -358,7 +362,7 @@
 }
 .showing_left ul {
   margin-left: 48px;
-  // margin-top: 27px;
+  margin-top: 27px;
   // float: left;
 }
 .showing_left li {
@@ -372,10 +376,10 @@
   color: #ff0000;
   text-decoration: underline;
 }
-// .showing_right {
-//   margin-top: 27px;
-//   float: left;
-// }
+.showing_right {
+  margin-top: 27px;
+  // float: left;
+}
 .showing_right ul {
   float: left;
   // margin-left: 12px;
