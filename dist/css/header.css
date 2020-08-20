@@ -193,7 +193,10 @@
 .header_rightLi1 {
   margin-right: 14px; }
 
-.rightLi1:hover {
+.header_rightLi1:hover {
+  color: #c70019; }
+
+.header_rightLi2:hover {
   color: #c70019; }
 
 .rightLi5 {
@@ -202,8 +205,14 @@
 .rightLi4 {
   margin-right: 38px; }
 
+.rightLi4:hover {
+  color: #c70019; }
+
 .rightLi3 {
   margin-right: 26px; }
+
+.rightLi3:hover {
+  color: #c70019; }
 
 .rightLi2 {
   margin-right: 30px; }

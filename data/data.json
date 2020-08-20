@@ -11,7 +11,7 @@
     "src2": "./../image/goods22.jpg",
     "src3": "./../image/goods23.jpg",
     "title": "【华南区】【中粮】中茶牌伴酒茶20g/盒*4，草本植物，科学配比，易吸收。",
-    "price": "59"
+    "price": "96"
   },
   {
     "src1": "http://localhost:3000/image/goods3.jpg",
@@ -25,7 +25,7 @@
     "src2": "./../image/goods42.jpg",
     "src3": "./../image/goods43.jpg",
     "title": "【华南区】【品牌直发】正大大黄鱼500g 袋装， 肉质紧实，色泽鲜亮。",
-    "price": "69"
+    "price": "49"
   },
   {
     "src1": "http://localhost:3000/image/goods5.jpg",
@@ -39,6 +39,6 @@
     "src2": "./../image/goods62.jpg",
     "src3": "./../image/goods63.jpg",
     "title": "【华南区】【包邮直发】匠甄果仁大列巴一个500g黑麦红提核桃，现烤现卖，香气丰...",
-    "price": "89"
+    "price": "79"
   }
 ]

@@ -119,6 +119,11 @@ $.ajax({
          </div>`;
         $(".detail_goodsleft").children().eq(0).attr("src", ele["src1"]);
         $(".detail_goodsright").children().eq(0).attr("src", ele["src1"]);
+
+        //标题
+        $(".detailtitle").text(ele["title"]);
+        //价格
+        $(".detail_price").text(ele["price"]);
       }
     });
     $(".detail_goodsbott").html(str);
